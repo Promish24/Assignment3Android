@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/launch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            android:text="Launch Rocket" />
+
+        <Button
+            android:id="@+id/land"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            android:text="Land Rocket" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rocket"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rocket_image"
+        android:layout_above="@id/buttonLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

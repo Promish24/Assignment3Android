@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="details_activity">DetailsActivity</string>
+    <string name="pulsating_effect">PulsatingEffect</string>
+    <string name="scaleup">Scale Up</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+</resources>
